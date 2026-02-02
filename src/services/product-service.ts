@@ -95,7 +95,7 @@ async editProduct(productoEditado: Producto) {
   });
   return productoEditado;
 }
- /** Borra un contacto */
+ /** Borra un producto*/
  async deleteProduct(id:string | number) {
   const res = await fetch('https://w370351.ferozo.com/api/products/' + id,
     {
