@@ -8,4 +8,4 @@ export interface User {
   id: number
 }
 
-export type NewPerfil = Omit<User, 'id' >;
+export type NewPerfil = Omit<User, "id" >;
