@@ -10,9 +10,6 @@
   margin: 0 auto;
 }
 
-/* =====================
-   ESTADO DE CARGA
-===================== */
 
 .loading-state {
   display: flex;
@@ -36,9 +33,7 @@
   to { transform: rotate(360deg); }
 }
 
-/* =====================
-   ESTADO ERROR
-===================== */
+
 
 .error-state {
   background: white;
@@ -66,9 +61,6 @@
   }
 }
 
-/* =====================
-   HEADER
-===================== */
 
 .restaurant-header {
   color: white;
@@ -87,10 +79,6 @@
   }
 }
 
-/* =====================
-   TITULO SECCIÓN
-===================== */
-
 .section-title {
   color: white;
   font-size: 1.5rem;
@@ -99,9 +87,6 @@
   text-align: center;
 }
 
-/* =====================
-   CATEGORÍAS
-===================== */
 
 .categories-nav {
   display: flex;
@@ -128,9 +113,6 @@
   }
 }
 
-/* =====================
-   GRID PRODUCTOS (BASE)
-===================== */
 
 .products-list {
   display: grid;
@@ -139,10 +121,6 @@
   justify-items: center;
   margin-bottom: 3rem;
 }
-
-/* =====================
-   CARD PRODUCTO
-===================== */
 
 .product-item {
   background: white;
@@ -164,9 +142,6 @@
   }
 }
 
-/* =====================
-   CONTENIDO CARD
-===================== */
 
 .card-content {
   display: flex;
@@ -221,9 +196,6 @@
   margin-bottom: 0.8rem;
 }
 
-/* =====================
-   PRECIOS
-===================== */
 
 .price-info {
   display: flex;
@@ -259,9 +231,6 @@
   }
 }
 
-/* =====================
-   BOTÓN VOLVER
-===================== */
 
 .actions {
   display: flex;

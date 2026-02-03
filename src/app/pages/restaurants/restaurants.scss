@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   
-  /* Grid que pone varias columnas (4-5 por fila), separadas por gap */
+  
   .contenedor-restaurant.container .row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -13,8 +13,7 @@
     margin: 0 auto;
     max-width: 1200px;
   }
-  
-  /* Quitar paddings para que queden pegadas */
+
   .contenedor-restaurant .col-md-4 {
     padding: 0;
   }
@@ -68,4 +67,21 @@
   .card button.btn:hover {
     background-color: #0047ab;
     color: white;
+  }
+
+  .back-link {
+    display: inline-block; /* CLAVE */
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 20px; /* ahora sí funciona */
+  }
+
+  .back-link:hover {
+    opacity: 0.85;
   }
