@@ -21,7 +21,6 @@ export class Register implements OnInit {
   errorRegister = false;
   isEditing = false; // Bandera para saber en qué modo estamos
 
-  // HACER UNA INTERFAZ PARA ESTO <===================================================================
   userData: any = {
     restaurantName: '',
     firstName: '',
@@ -107,7 +106,7 @@ export class Register implements OnInit {
         result = await this.authService.register(form.value);
 
         if (result) {
-          this.router.navigate(["/login"]);
+          this.router.navigate(["/Login"]);
         } else {
           this.errorRegister = true;
         }

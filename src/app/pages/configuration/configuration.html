@@ -73,7 +73,7 @@
               <span class="item-precio">{{ prod.price | currency }}</span>
             </div>
             <div class="fila-acciones">
-              <button class="btn-small" [routerLink]="['/products/edit', prod.id]">✏️ Editar</button>
+              <button class="btn-small" [routerLink]="['/products/edit', prod.id]">✏️</button>
               <button class="btn-small danger" (click)="borrarProducto(prod.id)">🗑️</button>
             </div>
           </div>
