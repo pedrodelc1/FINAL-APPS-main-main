@@ -146,3 +146,39 @@
     width: 20px;
     height: 20px;
   }
+
+  @media (max-width: 480px) {
+    .form-container {
+      max-width: 92%;       /* no ocupa toda la pantalla */
+      margin: 1.5rem auto; /* aire arriba y abajo */
+      padding: 1.25rem 1rem;
+      border-radius: 10px;
+    }
+  
+    header h2 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    .row {
+      flex-direction: column;
+  
+      .form-group {
+        flex: 1 1 100%;
+      }
+    }
+  
+    .actions {
+      flex-direction: column;
+      gap: 1rem;
+  
+      .btn-save {
+        width: 100%;
+        justify-content: center;
+      }
+  
+      .btn-cancel {
+        text-align: center;
+      }
+    }
+  }
